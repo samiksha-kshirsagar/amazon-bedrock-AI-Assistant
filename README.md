@@ -1,4 +1,5 @@
-Amazon Bedrock AI Assistant
+# Amazon Bedrock AI Assistant
+
 An AI-powered assistant built using Amazon Bedrock that enables users to interact with foundation models through a simple interface. This project demonstrates how to connect AWS Lambda with Amazon Bedrock for generating intelligent AI responses.
 
 # Features
