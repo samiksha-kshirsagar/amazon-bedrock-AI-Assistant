@@ -4,27 +4,28 @@ An AI-powered assistant built using Amazon Bedrock that enables users to interac
 
 # Features
 AI-powered chatbot
-Uses Amazon Bedrock foundation models
-Serverless backend using AWS Lambda
-Secure AWS integration
-Fast and scalable architecture
+
+1. Uses Amazon Bedrock foundation models
+2. Serverless backend using AWS Lambda
+3. Secure AWS integration
+4. Fast and scalable architecture
 
 # Prerequisites
 
 Before running the project, ensure you have:
 
-AWS Account
-IAM User with Bedrock permissions
-Python 3.10+
-AWS CLI configured
-Access enabled for Amazon Bedrock models
+1. AWS Account
+2. IAM User with Bedrock permissions
+3. Python 3.10+
+4. AWS CLI configured
+5. Access enabled for Amazon Bedrock models
 
 Enable model access from the Amazon Bedrock Console.
 
 # How It Works
-User enters a prompt in the application.
-app.py sends the request.
-lambda_function.py processes the request.
-bedrock_client.py connects to Amazon Bedrock.
-Bedrock generates the AI response.
-Response is displayed to the user.
+1. User enters a prompt in the application.
+2. app.py sends the request.
+3. lambda_function.py processes the request.
+4. bedrock_client.py connects to Amazon Bedrock.
+5. Bedrock generates the AI response.
+6. Response is displayed to the user.
